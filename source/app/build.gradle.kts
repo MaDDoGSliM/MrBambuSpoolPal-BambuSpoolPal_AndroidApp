@@ -15,7 +15,7 @@ android {
     // Set the namespace for the application.
     namespace = "app.mrb.bambuspoolpal"
     // Set the compile SDK version.
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         // Set the application ID.
@@ -23,7 +23,7 @@ android {
         // Set the minimum SDK version.
         minSdk = 29
         // Set the target SDK version.
-        targetSdk = 35
+        targetSdk = 36
         // Set the version code.
         versionCode = 1
         // Set the version name.

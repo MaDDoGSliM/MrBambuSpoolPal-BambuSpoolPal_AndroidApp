@@ -49,7 +49,8 @@ data class FilamentDetail(
     val defaultFilamentDatabaseId: Boolean = true,
     val filamentDensity: Double? = null, // Density of the filament material.
     val filamentId: Int? = null, // ID of the filament
-    var spoolId: Int? = null
+    var spoolId: Int? = null,
+    var archived: Boolean? = false
 ) {
     /**
      * Calculates the used weight of the filament.

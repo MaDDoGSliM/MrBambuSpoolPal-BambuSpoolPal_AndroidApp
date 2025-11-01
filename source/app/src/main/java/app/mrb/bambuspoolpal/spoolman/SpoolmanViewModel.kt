@@ -358,7 +358,8 @@ class SpoolmanViewModel(
                 actualWeight = (firstSpool.spool_weight ?: 0) + (firstSpool.remaining_weight?.toInt() ?: 0),
                 filamentDatabaseId = firstSpool.filament?.external_id,
                 filamentId = firstSpool.filament?.id,
-                vendorId = firstSpool.filament?.vendor?.id
+                vendorId = firstSpool.filament?.vendor?.id,
+                archived =  firstSpool.archived
             )
         } else {
             _toastMessage.value = context.getString(R.string.spool_not_found_in_spoolman)

@@ -31,6 +31,7 @@ android {
 
         // Set the test instrumentation runner.
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig = signingConfigs.getByName("debug")
     }
 
     buildFeatures {
@@ -50,8 +51,8 @@ android {
             )
 
             // Define BuildConfig fields for the release version.
-            // "VERSION_NAME" is set to "1.0.0" for the release build.
-            buildConfigField("String", "VERSION_NAME", "\"1.0.0\"")
+            // "VERSION_NAME" is set to "1.0.1" for the release build.
+            buildConfigField("String", "VERSION_NAME", "\"1.0.1\"")
 
             // Add a "IS_DEBUG" field to BuildConfig with value false for the release version.
             // This field will help to know that we are in release mode.
@@ -61,7 +62,7 @@ android {
         debug {
             // Define BuildConfig fields for the debug version.
             // "VERSION_NAME" is set to "1.0.0-debug" for the debug build.
-            buildConfigField("String", "VERSION_NAME", "\"1.0.0-debug\"")
+            buildConfigField("String", "VERSION_NAME", "\"1.0.1-debug\"")
 
             // Add a "IS_DEBUG" field to BuildConfig with value true for the debug version.
             // This field will help to know that we are in debug mode.

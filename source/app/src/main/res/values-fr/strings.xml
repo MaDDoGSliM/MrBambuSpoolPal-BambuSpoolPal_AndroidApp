@@ -43,7 +43,7 @@
     <string name="filament_weight_g">Poids initial de filament : %1$s g</string>
     <string name="length_m">Longueur : %1$s m</string>
     <string name="db_id">ID DB : %1$s</string>
-    <string name="manufacturer_id_filament_id_spool_id">ID fabricant : %1$s ID filament : %2$s ID bobine : %3$s</string>
+    <string name="manufacturer_id_filament_id_spool_id">ID fabricant : %1$s ID filament : %2$s ID bobine : %3$s %4$s</string>
     <string name="diameter_mm">Diamètre : %1$s mm</string>
     <string name="spool_weight_g">Poids de la bobine vide : %1$s g</string>
     <string name="hex_value">Valeur hexadécimale : %1$s</string>
@@ -123,4 +123,5 @@
     <string name="unable_to_read_rfid_tag_please">Unable to read RFID tag. Please don\'t move for at least 2 seconds</string>
     <string name="i_agree">"Je suis d'accord"</string>
     <string name="welcome_to_bambuspoolpal">Bienvenue sur BambuSpoolPal !</string>
+    <string name="archived">(archivée)</string>
 </resources>

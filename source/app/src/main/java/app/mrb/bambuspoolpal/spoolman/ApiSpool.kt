@@ -90,7 +90,7 @@ data class SpoolRequestBody(
     var location: String? = null,
     var lot_nr: String? = null,
     var comment: String? = null,
-    var archived: Boolean? = false,
+    var archived: Boolean? = true,
     var extra: Map<String, String>? = null
 )
 
@@ -117,7 +117,7 @@ data class SpoolSearchQueryParams(
     @ApiParameter("filament.vendor.id") val filamentVendorId: String? = null,
     val location: String? = null,
     @ApiParameter("lot_nr") val lotNr: String? = null,
-    @ApiParameter("allow_archived") val allowArchived: Boolean? = false,
+    @ApiParameter("allow_archived") val allowArchived: Boolean? = true,
     val sort: String? = null,
     val limit: Int? = null,
     val offset: Int? = 0

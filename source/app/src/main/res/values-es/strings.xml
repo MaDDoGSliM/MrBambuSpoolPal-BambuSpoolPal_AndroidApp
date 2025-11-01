@@ -41,7 +41,7 @@
     <string name="filament_weight_g">Peso del filamento: %1$s g</string>
     <string name="length_m">Longitud: %1$s m</string>
     <string name="db_id">ID DB: %1$s</string>
-    <string name="manufacturer_id_filament_id_spool_id">ID del fabricante: %1$s ID del filamento: %2$s ID del carrete: %3$s</string>
+    <string name="manufacturer_id_filament_id_spool_id">ID del fabricante: %1$s ID del filamento: %2$s ID del carrete: %3$s %4$s</string>
     <string name="diameter_mm">Diámetro: %1$s mm</string>
     <string name="spool_weight_g">Peso del carrete: %1$s g</string>
     <string name="hex_value">Valor hex: %1$s</string>
@@ -121,4 +121,5 @@
     <string name="unable_to_read_rfid_tag_please">No se pudo leer la etiqueta RFID. Por favor, no se mueva durante al menos 2 segundos</string>
     <string name="i_agree">Estoy de acuerdo</string>
     <string name="welcome_to_bambuspoolpal">¡Bienvenido a BambuSpoolPal!</string>
+    <string name="archived">(archivada)</string>
 </resources>

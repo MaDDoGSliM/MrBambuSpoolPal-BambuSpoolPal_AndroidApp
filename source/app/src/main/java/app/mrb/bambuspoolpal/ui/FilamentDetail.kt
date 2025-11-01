@@ -134,7 +134,8 @@ fun FilamentDetails(filament: FilamentDetail, viewModel: ScanViewModel, configVi
                             R.string.manufacturer_id_filament_id_spool_id,
                             filament.vendorId ?: stringResource(R.string.n_a),
                             filament.filamentId ?: stringResource(R.string.n_a),
-                            filament.spoolId ?: stringResource(R.string.n_a)
+                            filament.spoolId ?: stringResource(R.string.n_a),
+                            if (filament.archived == true) stringResource(R.string.archived) else ""
                         ),
                         style = MaterialTheme.typography.bodySmall
                     )

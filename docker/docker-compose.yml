@@ -2,7 +2,10 @@ version: '3.8'
 
 services:
   caddy:
-    image: caddy:latest
+    build:
+       context: curl .
+       dockerfile: Dockerfile
+    image: custom-caddy:latest
     ports:
       - "7912:443" # Maps port 7912 on the host to port 443 inside the caddy container (typically HTTPS).
     volumes:
